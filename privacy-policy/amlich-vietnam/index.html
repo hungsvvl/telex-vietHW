@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>越南农历隐私政策</title>
+  <meta name="description" content="越南农历 HarmonyOS NEXT 应用的隐私政策。" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #f5f6f8;
+      --card: #ffffff;
+      --text: #1d2027;
+      --muted: #626a78;
+      --border: #dce1e9;
+      --accent: #a33a31;
+      --soft: #fff1ed;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 38px 20px 26px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { margin: 7px 0 0; color: var(--muted); }
+    main { max-width: 880px; margin: 0 auto; padding: 28px 16px 52px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+    h2 { margin: 0 0 12px; font-size: 19px; }
+    p { margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 22px; }
+    li { margin: 7px 0; }
+    code {
+      background: #eef1f5;
+      border-radius: 6px;
+      padding: 2px 6px;
+      word-break: break-word;
+    }
+    a { color: var(--accent); }
+    .meta {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 8px 14px;
+      margin: 0;
+    }
+    .meta dt { color: var(--muted); }
+    .meta dd { margin: 0; }
+    .notice {
+      background: var(--soft);
+      border-left: 4px solid var(--accent);
+      padding: 12px 14px;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 0 16px 34px;
+      font-size: 13px;
+    }
+    @media (max-width: 640px) {
+      .meta { grid-template-columns: 1fr; gap: 2px; }
+      .meta dd { margin-bottom: 8px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111318;
+        --card: #1b1e25;
+        --text: #f3f5f8;
+        --muted: #a8afbb;
+        --border: #303641;
+        --accent: #f18b7d;
+        --soft: #352522;
+      }
+      code { background: #282d36; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>《越南农历》隐私政策</h1>
+    <p>HarmonyOS NEXT 越南阴阳历、提醒和天气应用</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>生效日期</h2>
+      <p>2026 年 7 月 26 日</p>
+      <p class="notice">本隐私政策是《越南农历》（以下简称“本应用”）的独立隐私说明，适用于本应用的日历、提醒、文化内容、天气和桌面卡片功能。</p>
+    </section>
+
+    <section>
+      <h2>应用信息</h2>
+      <dl class="meta">
+        <dt>应用名称</dt>
+        <dd>越南农历</dd>
+        <dt>包名</dt>
+        <dd><code>com.amlich.vietnam</code></dd>
+        <dt>平台</dt>
+        <dd>HarmonyOS NEXT</dd>
+        <dt>开发者</dt>
+        <dd>NGUYEN THANH HUNG</dd>
+        <dt>联系方式</dt>
+        <dd><a href="mailto:hng89tn@gmail.com">hng89tn@gmail.com</a></dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>处理的信息</h2>
+      <p>仅当您主动启用“当前位置天气”时，本应用才可能处理设备的大致位置或精确位置。位置权限为可选权限；拒绝授权不会影响日历、提醒和离线文化内容等基本功能，您仍可手动选择城市查看天气。</p>
+      <p>本应用会在设备本地保存日程、提醒、收藏的文化文章、所选城市、桌面卡片设置和其他偏好设置。本应用不要求注册账号。</p>
+    </section>
+
+    <section>
+      <h2>使用目的</h2>
+      <ul>
+        <li>位置信息仅用于确定当前位置所属区域并显示当前位置天气。</li>
+        <li>日程和提醒仅用于提供您创建或启用的提醒功能。</li>
+        <li>收藏、所选城市和桌面卡片设置仅用于保存和呈现您的个人偏好。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>第三方服务和信息提供</h2>
+      <p>启用“当前位置天气”后，本应用会通过 HTTPS 将纬度和经度发送给 Open-Meteo 天气服务，以获取天气数据。最近一次坐标保存在设备本地，也可能供桌面卡片后台刷新天气时使用。</p>
+      <p>本应用可能使用华为 Location Kit 获取或描述设备位置。Open-Meteo 和华为相关服务提供方将依据各自的隐私规则处理信息。</p>
+      <p>本应用不会出售个人信息，也不会将个人信息用于广告或行为分析。</p>
+    </section>
+
+    <section>
+      <h2>存储与保留</h2>
+      <p>开发者不运营用于保存您的位置、日程、提醒或收藏数据的账号服务器或应用服务器。最近一次坐标及其他应用数据保存在设备本地，直至您更改、删除相关数据或卸载本应用。</p>
+      <p>根据 Open-Meteo 公布的隐私条款，其 API 日志中包含的坐标信息可能最多保留 90 天。</p>
+    </section>
+
+    <section>
+      <h2>权限说明</h2>
+      <ul>
+        <li><code>ohos.permission.APPROXIMATELY_LOCATION</code> 和 <code>ohos.permission.LOCATION</code>：仅在您启用当前位置天气时申请，用于获取天气所属区域。</li>
+        <li><code>ohos.permission.INTERNET</code>：用于访问可选天气服务。</li>
+        <li><code>ohos.permission.PUBLISH_AGENT_REMINDER</code>：用于您启用的日程和提醒功能。</li>
+      </ul>
+      <p>您可以随时在系统设置中撤销位置权限。撤销位置权限后，手动选择城市的天气和其他基本功能仍可使用。</p>
+    </section>
+
+    <section>
+      <h2>未成年人隐私</h2>
+      <p>本应用是面向普通用户的日历工具，并非专门面向未成年人收集个人信息。本应用不提供账号、社交网络、广告或应用内购买功能。</p>
+    </section>
+
+    <section>
+      <h2>政策更新</h2>
+      <p>当应用功能或法律要求发生变化时，本政策可能更新。发生重大更新时，我们会修改本页的生效日期。</p>
+    </section>
+
+    <section>
+      <h2>联系我们</h2>
+      <p>如对隐私保护有任何疑问、请求或删除本地数据方面的帮助，请联系：</p>
+      <p><a href="mailto:hng89tn@gmail.com">hng89tn@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    更新日期：2026 年 7 月 26 日<br />
+    © 2026 越南农历
+  </footer>
+</body>
+</html>

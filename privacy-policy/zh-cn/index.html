@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VietKey 隐私政策</title>
+  <meta name="description" content="VietKey HarmonyOS NEXT 越南语输入法键盘的隐私政策。" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #f4f5f7;
+      --card: #ffffff;
+      --text: #17181c;
+      --muted: #626774;
+      --border: #d9dde5;
+      --accent: #1463ff;
+      --soft: #eef3ff;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 36px 20px 24px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 28px; }
+    header p { margin: 6px 0 0; color: var(--muted); }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 18px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+    }
+    p { margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 20px; }
+    li { margin: 6px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--soft); }
+    code {
+      background: #eef0f4;
+      border-radius: 6px;
+      padding: 2px 6px;
+      word-break: break-word;
+    }
+    a { color: var(--accent); }
+    .meta {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      gap: 8px 14px;
+      margin: 0;
+    }
+    .meta dt { color: var(--muted); }
+    .meta dd { margin: 0; }
+    .language {
+      margin-top: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .language a {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 5px 12px;
+      background: var(--soft);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 0 16px 32px;
+      font-size: 13px;
+    }
+    @media (max-width: 640px) {
+      .meta { grid-template-columns: 1fr; gap: 2px; }
+      .meta dd { margin-bottom: 8px; }
+      table { font-size: 13px; }
+      th, td { padding: 8px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101114;
+        --card: #1a1c22;
+        --text: #f3f5f8;
+        --muted: #a6adba;
+        --border: #303542;
+        --accent: #6aa2ff;
+        --soft: #202842;
+      }
+      code { background: #282d38; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VietKey 隐私政策</h1>
+    <p>适用于 HarmonyOS NEXT 的越南语输入法键盘</p>
+    <nav class="language" aria-label="Language">
+      <a href="../">English / Tiếng Việt</a>
+      <a href="./">简体中文</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>应用信息</h2>
+      <dl class="meta">
+        <dt>应用名称</dt>
+        <dd>VietKey</dd>
+        <dt>包名</dt>
+        <dd><code>com.vietnam.keyboard</code></dd>
+        <dt>平台</dt>
+        <dd>HarmonyOS NEXT</dd>
+        <dt>支持设备</dt>
+        <dd>手机、平板</dd>
+        <dt>开发者及个人信息处理者</dt>
+        <dd>NGUYEN THANH HUNG</dd>
+        <dt>联系方式</dt>
+        <dd><a href="mailto:hng89tn@gmail.com">hng89tn@gmail.com</a> · <a href="https://github.com/hungsvvl/telex-vietHW/issues">GitHub Issues</a></dd>
+        <dt>最后更新</dt>
+        <dd>2026 年 7 月 30 日</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>概要</h2>
+      <p>VietKey 是一款越南语输入法键盘。按键输入、Telex/VNI/Pinyin 处理、语音转文字、剪贴板历史和键盘设置均在设备本地处理或保存。</p>
+      <p>VietKey 不保存逐键日志，不会将文本或音频上传到服务器，也不使用广告、分析或第三方跟踪 SDK。当前应用包未声明互联网权限。</p>
+      <p>仅在用户同意应用内隐私提示并主动使用相应的可选功能后，VietKey 才会申请麦克风或读取剪贴板权限。</p>
+      <p>用户同意隐私政策后，有限的设备端建议学习将默认启用。用户可随时关闭或清除学习数据，学习数据不会上传。</p>
+    </section>
+
+    <section>
+      <h2>权限使用说明</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>权限</th>
+            <th>权限名称</th>
+            <th>支持设备</th>
+            <th>使用原因</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>录音 / 麦克风</td>
+            <td><code>ohos.permission.MICROPHONE</code></td>
+            <td>手机、平板</td>
+            <td>用于语音识别输入文字。仅在用户同意隐私提示并主动启动语音转文字后申请权限；音频通过离线模型在设备本地处理，不会上传、分享或永久保存。</td>
+          </tr>
+          <tr>
+            <td>读取剪贴板</td>
+            <td><code>ohos.permission.READ_PASTEBOARD</code></td>
+            <td>手机、平板</td>
+            <td>仅在用户同意隐私提示并主动使用剪贴板功能后，用于显示粘贴建议和维护可选的本地剪贴板历史。剪贴板文本不会上传或分享。</td>
+          </tr>
+          <tr>
+            <td>振动</td>
+            <td><code>ohos.permission.VIBRATE</code></td>
+            <td>手机、平板</td>
+            <td>用于用户按键时提供触感反馈。用户可在应用设置中关闭或调整触感反馈。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>数据处理</h2>
+      <ul>
+        <li>键盘输入仅在设备本地处理，用于提供 Telex、VNI 和 Pinyin 输入。</li>
+        <li>VietKey 不保存逐键日志，也不会上传键盘文本。</li>
+        <li>VietKey 不包含广告、分析或第三方跟踪 SDK。</li>
+        <li>当前应用包未声明互联网权限。</li>
+        <li>离线语音转文字使用随应用打包的本地模型文件。语音音频在设备本地处理，VietKey 不会永久保存语音音频。</li>
+        <li>剪贴板数据访问为可选功能；仅在用户明确启用或使用该功能并授予权限后才会生效。VietKey 最多在本地保存 20 条最近内容和 20 条置顶内容，每条最多 10,000 个字符。</li>
+        <li>用户同意隐私政策后，设备端建议学习将默认启用。越南语模型在本地最多保存 800 个已学习词、1,500 个词对、800 个三词序列和 3,000 个上下文模式的有限计数；中文模型最多保存 300 个词和 400 个词对，Pinyin 维护本地用户词典。</li>
+        <li>只学习有效的越南语词和已确认的中文/Pinyin 候选项。完整句子、输入框全部内容、链接、代码及逐键日志不会作为学习数据保存。</li>
+        <li>键盘设置、自定义快捷短语和用户偏好仅保存在设备本地。</li>
+        <li>VietKey 本身不会向境外服务器传输个人信息。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>剪贴板和键盘输入</h2>
+      <p>键盘输入在输入法内部本地处理。剪贴板功能仅用于粘贴建议和可选的本地剪贴板历史。用户可以在 VietKey 的隐私政策页面删除剪贴板历史，也可以通过清除应用数据或卸载 VietKey 删除本地数据。</p>
+      <p>关闭设备端学习会停止新的学习，但保留已有学习计数。用户可选择<strong>清除已学习的建议数据</strong>，删除越南语、中文和 Pinyin 学习数据，而不删除自定义词典。</p>
+    </section>
+
+    <section>
+      <h2>同意与控制</h2>
+      <ul>
+        <li>VietKey 会在申请麦克风或读取剪贴板权限之前显示应用内隐私提示。</li>
+        <li>不同意不会阻止核心键盘功能；在用户同意并主动调用之前，语音输入和剪贴板功能保持不可用。</li>
+        <li>同意隐私提示后，有限的设备端建议学习将默认启用。用户可随时关闭学习或清除学习数据。</li>
+        <li>用户可在<strong>关于 &gt; 隐私政策</strong>中查看本政策、撤回同意、管理系统权限、删除学习数据并删除本地剪贴板历史。</li>
+        <li>撤回同意后，VietKey 会立即禁用学习，并停止启动语音输入或读取剪贴板内容。用户也可以在系统权限设置中撤销已经授予的 HarmonyOS 权限。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>联系我们</h2>
+      <p>如需咨询隐私、支持或数据删除相关问题，请联系：</p>
+      <p><a href="mailto:hng89tn@gmail.com">hng89tn@gmail.com</a><br><a href="https://github.com/hungsvvl/telex-vietHW/issues">https://github.com/hungsvvl/telex-vietHW/issues</a></p>
+    </section>
+  </main>
+
+  <footer>
+    更新日期：2026 年 7 月 30 日<br>
+    © 2026 VietKey
+  </footer>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VietKey Privacy Policy</title>
+  <meta name="description" content="Privacy policy for VietKey Vietnamese keyboard on HarmonyOS NEXT." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --bg: #f4f5f7;
+      --card: #ffffff;
+      --text: #17181c;
+      --muted: #626774;
+      --border: #d9dde5;
+      --accent: #1463ff;
+      --soft: #eef3ff;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 36px 20px 24px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 28px; }
+    header p { margin: 6px 0 0; color: var(--muted); }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 18px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+    }
+    p { margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 20px; }
+    li { margin: 6px 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--soft); }
+    code {
+      background: #eef0f4;
+      border-radius: 6px;
+      padding: 2px 6px;
+      word-break: break-word;
+    }
+    a { color: var(--accent); }
+    .meta {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      gap: 8px 14px;
+      margin: 0;
+    }
+    .meta dt { color: var(--muted); }
+    .meta dd { margin: 0; }
+    .language {
+      margin-top: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .language a {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 5px 12px;
+      background: var(--soft);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 0 16px 32px;
+      font-size: 13px;
+    }
+    @media (max-width: 640px) {
+      .meta { grid-template-columns: 1fr; gap: 2px; }
+      .meta dd { margin-bottom: 8px; }
+      table { font-size: 13px; }
+      th, td { padding: 8px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101114;
+        --card: #1a1c22;
+        --text: #f3f5f8;
+        --muted: #a6adba;
+        --border: #303542;
+        --accent: #6aa2ff;
+        --soft: #202842;
+      }
+      code { background: #282d38; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VietKey Privacy Policy</h1>
+    <p>Vietnamese input method keyboard for HarmonyOS NEXT</p>
+    <nav class="language" aria-label="Language">
+      <a href="./">English / Tiếng Việt</a>
+      <a href="./zh-cn/">简体中文</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>App Information</h2>
+      <dl class="meta">
+        <dt>App name</dt>
+        <dd>VietKey</dd>
+        <dt>Bundle ID</dt>
+        <dd><code>com.vietnam.keyboard</code></dd>
+        <dt>Platform</dt>
+        <dd>HarmonyOS NEXT</dd>
+        <dt>Supported devices</dt>
+        <dd>Mobile phone, Tablet</dd>
+        <dt>Developer and data controller</dt>
+        <dd>NGUYEN THANH HUNG</dd>
+        <dt>Contact</dt>
+        <dd><a href="mailto:hng89tn@gmail.com">hng89tn@gmail.com</a> · <a href="https://github.com/hungsvvl/telex-vietHW/issues">GitHub Issues</a></dd>
+        <dt>Last updated</dt>
+        <dd>July 30, 2026</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Summary</h2>
+      <p>VietKey does not store per-key logs, does not upload text or audio to a server, and does not use advertising, analytics, or third-party tracking SDKs.</p>
+      <p>VietKey requests Microphone or Read clipboard permission only after the user accepts the in-app privacy notice and deliberately invokes the corresponding optional feature.</p>
+      <p>After privacy acceptance, bounded on-device suggestion learning is enabled by default. It can be disabled or cleared at any time and never uploads learned data.</p>
+      <p><strong>Vietnamese:</strong> VietKey không lưu nhật ký từng phím, không tải văn bản hoặc âm thanh lên máy chủ và không dùng SDK quảng cáo/theo dõi. Sau khi người dùng đồng ý chính sách, học gợi ý giới hạn trên thiết bị được bật mặc định và có thể tắt hoặc xóa bất cứ lúc nào.</p>
+    </section>
+
+    <section>
+      <h2>Real Permission Usage</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>Permission name</th>
+            <th>Supported device</th>
+            <th>Usage reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Record audio / Microphone</td>
+            <td><code>ohos.permission.MICROPHONE</code></td>
+            <td>Mobile phone, Tablet</td>
+            <td>Used for speech recognition to input text. Permission is requested only after the user accepts the privacy notice and explicitly starts Voice to Text. Audio is processed locally and is not uploaded, shared, or permanently stored.</td>
+          </tr>
+          <tr>
+            <td>Read clipboard</td>
+            <td><code>ohos.permission.READ_PASTEBOARD</code></td>
+            <td>Mobile phone, Tablet</td>
+            <td>Used only after privacy acceptance and an explicit clipboard action to show paste suggestions and maintain the optional local clipboard history. Clipboard text is not uploaded or shared.</td>
+          </tr>
+          <tr>
+            <td>Vibrate</td>
+            <td><code>ohos.permission.VIBRATE</code></td>
+            <td>Mobile phone, Tablet</td>
+            <td>Used to provide haptic feedback when the user presses keys.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Data Handling</h2>
+      <ul>
+        <li>Keyboard input is processed locally to provide Telex/VNI/Pinyin typing.</li>
+        <li>VietKey does not store per-key logs or upload keyboard text.</li>
+        <li>VietKey does not include analytics, advertising, or third-party tracking SDKs.</li>
+        <li>The current app package does not declare an internet permission.</li>
+        <li>Offline Voice to Text uses bundled model files on the device. Voice audio is processed locally and is not permanently stored by VietKey.</li>
+        <li>Clipboard data access is optional and remains inactive until the user explicitly enables/uses the feature and grants permission. VietKey stores at most 20 recent items and 20 pinned items locally. Each item is limited to 10,000 characters.</li>
+        <li>After privacy acceptance, on-device suggestion learning is enabled by default. The Vietnamese model stores bounded local counters for up to 800 learned words, 1,500 word pairs, 800 three-word sequences, and 3,000 context patterns. The Chinese model stores up to 300 words and 400 word pairs; Pinyin maintains a local user dictionary.</li>
+        <li>Only valid Vietnamese words and confirmed Chinese/Pinyin candidates are learned. Complete sentences, full input-field contents, links, code, and per-key logs are not stored as learning data.</li>
+        <li>Keyboard settings, custom shortcuts, and user preferences are stored locally on the device.</li>
+        <li>If the user chooses a keyboard background image through the system Photo Picker, VietKey copies one local working copy into its private app storage. It is used only to render the keyboard background, is not uploaded, and can be removed from Theme settings, by resetting app settings, by clearing app data, or by uninstalling VietKey.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Clipboard And Keyboard Input</h2>
+      <p>Keyboard input is processed locally inside the input method. Clipboard features are used only for paste suggestions and optional local clipboard history. Clipboard history can be deleted from VietKey's Privacy Policy page, by clearing app data, or by uninstalling VietKey.</p>
+      <p>Turning off on-device learning stops new learning but retains existing learned counters. The user can choose <strong>Clear learned suggestion data</strong> to delete Vietnamese, Chinese, and Pinyin learning data without deleting the custom dictionary.</p>
+    </section>
+
+    <section>
+      <h2>Consent And Controls</h2>
+      <ul>
+        <li>VietKey presents an in-app privacy notice before requesting Microphone or Read clipboard permission.</li>
+        <li>Declining does not block the core keyboard. Voice input and clipboard features remain unavailable until the user accepts and deliberately invokes them.</li>
+        <li>Accepting the notice enables bounded on-device suggestion learning by default. The user can disable learning or clear learned data at any time.</li>
+        <li>The user can review this policy, withdraw consent, manage system permissions, delete learned suggestion data, and delete local clipboard history from <strong>About &gt; Privacy Policy</strong>.</li>
+        <li>Withdrawing consent immediately disables learning and stops VietKey from starting voice input or reading clipboard content. Previously granted HarmonyOS permissions can also be revoked in the system permission settings.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For privacy, support, or deletion requests, please contact:</p>
+      <p><a href="mailto:hng89tn@gmail.com">hng89tn@gmail.com</a><br><a href="https://github.com/hungsvvl/telex-vietHW/issues">https://github.com/hungsvvl/telex-vietHW/issues</a></p>
+    </section>
+  </main>
+
+  <footer>
+    Updated: July 30, 2026<br>
+    © 2026 VietKey
+  </footer>
+</body>
+</html>

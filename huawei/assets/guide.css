@@ -1,0 +1,32 @@
+/* Shared light-only styles for the Huawei installation guide. */
+:root{color-scheme:only light;--ink:#202124;--dim:#50565e;--line:#d9dde2;--link:#174ea6}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans SC",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--link)}
+a:focus-visible,summary:focus-visible{outline:3px solid #174ea6;outline-offset:4px}
+.wrap{width:min(820px,calc(100% - 40px));margin:auto}
+.i{width:20px;height:20px;flex:none}
+.hero{border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0;border-bottom:1px solid #eceef0}
+.brand{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:700;text-decoration:none;color:var(--ink)}
+.mark{display:grid;place-items:center}.mark .i{width:24px;height:24px}
+.langs{display:flex;gap:4px}.lang{padding:7px 10px;font-size:14px;text-decoration:none;color:var(--dim);border-radius:4px}.lang.on{background:#eef0f2;color:var(--ink);font-weight:600}.lang:hover{background:#f3f4f5}
+.hero-in{padding:32px 0}.hero-copy{max-width:720px}
+.eyebrow{margin:0 0 8px;font-size:15px;color:var(--dim);font-weight:500}
+h1{margin:0 0 16px;font-size:clamp(28px,4.5vw,36px);line-height:1.25;letter-spacing:-.02em}
+.lede{margin:0;color:var(--dim)}.meta{margin:16px 0 0;font-size:13px;color:var(--dim);overflow-wrap:anywhere}.meta span+span{margin-left:12px}
+h2{margin:32px 0 20px;font-size:23px;line-height:1.35}
+.steps{list-style:none;margin:0;padding:0}
+.steps>li{display:grid;grid-template-columns:32px minmax(0,1fr);gap:14px;padding:24px 0;border-bottom:1px solid var(--line)}.steps>li:first-child{padding-top:0}.steps>li:last-child{border-bottom:0}
+.num{display:grid;place-items:center;width:32px;height:32px;border:1px solid #c5cbd2;border-radius:4px;background:#f5f6f7;font-size:17px;font-weight:700}
+.step h3{margin:0 0 8px;font-size:20px;line-height:1.5}.step h3 .i{display:none}.step p{margin:0;color:var(--dim)}
+.get{display:flex;align-items:flex-start;gap:24px;margin-top:20px}
+.stores{flex:1;min-width:0;list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.store{display:flex;align-items:center;gap:14px;padding:16px;border:1px solid #b8bec6;border-radius:6px;background:#fff;color:var(--ink);text-decoration:none;min-height:96px}
+.store:hover{background:#f5f7fa;border-color:#626b77}.store-logo{display:block;width:36px;height:36px;object-fit:contain;flex:none}
+.store-copy{min-width:0;display:flex;flex-direction:column}.store-copy small{font-size:13px;color:var(--dim)}.store-copy strong{font-size:19px;font-weight:650}.store-copy em{font-size:14px;font-style:normal;color:var(--dim);line-height:1.5}.store-go{margin-left:auto;color:#59636f}
+.qr{flex:none;margin:0;text-align:center;font-size:13px;color:var(--dim)}.qr svg{display:block;width:148px;height:148px;padding:8px;border:1px solid var(--line);background:#fff}.qr figcaption{margin-top:8px;max-width:148px}
+.watches-note{margin:0 0 12px;color:var(--dim)}.watches{list-style:none;margin:0;padding:0}.watches li{display:flex;gap:12px;padding:18px 0;border-bottom:1px solid var(--line)}.watches .i{margin-top:5px;color:#59636f}.watch{min-width:0}.watch strong{font-size:17px}.watch p{margin:4px 0;color:var(--dim);font-size:15px}
+.out{margin-top:20px;color:var(--dim);font-size:15px}.out summary{cursor:pointer;color:var(--ink);font-weight:600}.out ul{padding-left:22px}
+footer{margin-top:40px;border-top:1px solid var(--line);padding:24px 0 36px;font-size:14px}.foot{display:flex;flex-wrap:wrap;gap:14px 24px}.foot a{display:inline-flex;align-items:center;gap:8px}.foot .i{width:16px;height:16px}
+@media(max-width:600px){body{font-size:16px}.wrap{width:calc(100% - 32px)}.bar{gap:12px;flex-wrap:wrap;padding:16px 0}.hero-in{padding:24px 0}h2{font-size:21px}.steps>li{gap:10px;grid-template-columns:28px minmax(0,1fr)}.num{width:28px;height:28px;font-size:15px}.step h3{font-size:18px}.get{flex-direction:column;gap:20px}.stores{width:100%;flex:auto}.store{padding:13px;gap:10px}.store-copy strong{font-size:18px}.store-logo{width:32px;height:32px}.store-go{width:16px}.qr{align-self:flex-start}.foot{flex-direction:column}}
